@@ -6,7 +6,7 @@
 A gozinta chain for n is a sequence {1,a,b,...,n} where each element properly divides the next. There are eight gozinta chains for 12: {1,12} ,{1,2,12}, {1,2,4,12}, {1,2,6,12}, {1,3,12}, {1,3,6,12}, {1,4,12} and {1,6,12}. Let g(n) be the number of gozinta chains for n, so g(12)=8. g(48)=48 and g(120)=132. Use these chains to generate a new password encoding algorithm for a typical unix text file.
 
 ## MODEL
-1.Usage: $ make -f makefile
+1.Usage: $ make -f makefile <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	 $./encoder file-name key 0(encryption)/1(decryption)\n
 
 2.The key can be alphanumeric.
@@ -33,3 +33,7 @@ A gozinta chain for n is a sequence {1,a,b,...,n} where each element properly di
 	Upon calling the decrypt function with the key and encrypt.txt file, the Deciphering process is carried out and the result is displayed on the terminal.
 	If the key provided is the original key then the original contents are retrieved accurately
 	If the key provided is not the original key, the output will contain garbled text. 
+
+## Contributors
+1. <a href= "https://www.github.com/deep-j"> Deepika </a> <br/>
+2. <a href= "https://www.github.com/gunashree-r-v"> Gunashree </a> <br/>
